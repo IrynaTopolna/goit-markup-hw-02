@@ -207,7 +207,7 @@ body {
 }
 
 .contacts {
-  color: var(--text-color-contacts) 
+  color: var(--text-color-contacts);
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
