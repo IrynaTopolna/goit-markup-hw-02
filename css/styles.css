@@ -3,6 +3,10 @@
   --secondary-text-color: #757575;
   --accent-blue: #2196f3;
   --accent-white: #ffffff;
+  --bgc-hero-footer: #2f303a;
+  --text-color-contacts: rgba(255, 255, 255, 0.6);
+  --bgc-team-btn-portfolio: #f5f4fa;
+  --text-color-logo-header: #000000;
 }
 
 body {
@@ -28,8 +32,8 @@ body {
   line-height: 1.19;
 }
 
-.logo-heder {
-  color: #000000;
+.logo-header {
+  color: var(--text-color-logo-header)
 }
 
 /* Site nav */
@@ -66,7 +70,7 @@ body {
 /* Hero */
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--bgc-hero-footer);
 }
 
 .hero-title {
@@ -103,7 +107,7 @@ body {
 
 .btn.portfolio {
   color: var(--main-text-color);
-  background-color: #f5f4fa;
+  background-color: var(--bgc-team-btn-portfolio);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -164,7 +168,7 @@ body {
 }
 
 .section.team {
-  background-color: #f5f4fa;
+  background-color: var(--bgc-team-btn-portfolio);
 }
 
 .visually-hidden {
@@ -187,7 +191,7 @@ body {
 }
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--bgc-hero-footer);
 }
 
 .adress {
@@ -203,7 +207,7 @@ body {
 }
 
 .contacts {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--text-color-contacts) 
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
