@@ -1,6 +1,13 @@
+:root{
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-blue: #2196F3;
+  --accent-white: #FFFFFF;
+}
+
 body {
-  color: #212121;
-  background-color: #FFFFFF;
+  color: var(--main-text-color);
+  background-color: var(--accent-white);
 }
 
 .list{
@@ -12,7 +19,7 @@ body {
 }
 
 .logo{
-  color: #2196F3;
+  color: var(--accent-blue);
 }
 
 .logo-heder{
@@ -21,61 +28,78 @@ body {
 
 /* Site nav */
 .site-nav .link {
-  color: #212121;
+  color: var(--main-text-color);
+}
+
+.site-nav .current{
+  color: var(--accent-blue);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196F3;
+  color: var(--accent-blue);
 }
 
 .auth-nav .link{
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
 .auth-nav .link:hover,
 .auth-nav .link:focus {
-  color: #2196F3;
+  color: var(--accent-blue);
 }
 
 /* Hero */
-.hero-title{
-  color: #FFFFFF;
+
+.hero{
+  background-color: #2F303A;
 }
 
-.btn{
-  color: #FFFFFF;
-  background-color: #2196F3;
+.hero-title{
+  color: var(--accent-white);
+}
+
+.btn-portfolio{
+  color: var(--main-text-color);
+  background-color: #F5F4FA;
+}
+
+.btn,   
+.btn-portfolio:hover,
+.btn-portfolio:focus{
+  color: var(--accent-white);
+  background-color: var(--accent-blue);
 }
 
 .btn:hover,
 .btn:focus{
-  color: #2196F3;
-  background-color: #FFFFFF;
+  color: var(--accent-blue);
+  background-color: var(--accent-white);
 }
 
 /* Section */
 .list-paragraph{
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
 /* Footer */
 
 .logo-footer{
-  color: #ffffff;
+  color: var(--accent-white);
 }
 
-.footer,
-.hero{
+.footer{
   background-color: #2F303A;
+  font-style: normal;
 }
+
 .adress{
-  color: #FFFFFF;
+  color: var(--accent-white);
 }
 
 .adress:hover,
 .adress:focus{
-  color: #2196F3;
+  color: var(--accent-blue);
 }
 
 .contacts{
@@ -84,10 +108,6 @@ body {
 
 .contacts:hover,
 .contacts:focus{
-  color: #2196F3;
+  color: var(--accent-blue);
 }
 
-/* основной цвет текста #212121
-вторичный цвет текста #757575
-акцент-1 #2196F3
-акцент-2 #FFFFFF */
