@@ -1,6 +1,6 @@
 body {
   color: #212121;
-  background-color: #f5f5f5;
+  background-color: #FFFFFF;
 }
 
 .list{
@@ -13,6 +13,10 @@ body {
 
 .logo{
   color: #2196F3;
+}
+
+.logo-heder{
+  color: #000000;
 }
 
 /* Site nav */
@@ -56,6 +60,11 @@ body {
 }
 
 /* Footer */
+
+.logo-footer{
+  color: #ffffff;
+}
+
 .footer,
 .hero{
   background-color: #2F303A;
